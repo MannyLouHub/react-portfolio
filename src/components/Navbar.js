@@ -13,7 +13,6 @@ const Navbar = (props) => {
               <li className={'nav-item p-1'}>
                 <NavLink
                     to='/HomePage'
-                    onClick={() => props.handlePageChange('HomePage')}
                     className={"Nav-Link"}>
                   About Me
                 </NavLink>
@@ -21,7 +20,6 @@ const Navbar = (props) => {
               <li className={'nav-item p-1'}>
                 <NavLink
                     to='/Portfolio'
-                    onClick={() => props.handlePageChange('Portfolio')}
                     className={"Nav-Link"}>
                   Portfolio
                 </NavLink>
@@ -29,7 +27,6 @@ const Navbar = (props) => {
               <li className={'nav-item p-1'}>
                 <NavLink
                     to='/ContactPage'
-                    onClick={() => props.handlePageChange('ContactPage')}
                     className={"Nav-Link"}>
                   Contact
                 </NavLink>

@@ -1,7 +1,7 @@
 import React from 'react';
-import profilePhoto from "../../images/magic_7 Profile Photo.jpg"
+import profilePhoto from "../../../images/github.png"
 
-const HomePage = () => {
+const MovieReviewSite = () => {
   return <div className="container p-5">
     <div className="card p-3">
       <div className="row">
@@ -25,4 +25,4 @@ const HomePage = () => {
     </div>
   </div>
 }
-export default HomePage;
+export default MovieReviewSite;
