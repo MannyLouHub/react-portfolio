@@ -26,13 +26,13 @@ function Projects(props) {
               <div className={'row'}>
 
                 <Thumbnail
-                    href='/MovieReviewSite'
+                    href='/SubscriptionTracker'
                     image={netflix}
                     title='Subscription Tracker'
                     desc={subDesc}
                 />
                 <Thumbnail
-                    href='https://mannylouhub.github.io/Stock-News-App/'
+                    href='/StockNewsApp'
                     image={stockNews}
                     title='Stock-New-App'
                     desc={stockDesc}
