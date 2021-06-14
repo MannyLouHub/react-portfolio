@@ -1,23 +1,29 @@
 import React from 'react';
-import profilePhoto from "../../../images/github.png"
-
+import projectPhoto from "../../../images/Movie_Review_Site.PNG"
+//Name of Project here
 const MovieReviewSite = () => {
   return <div className="container p-5">
-    <div className="card p-3">
-      <div className="row">
 
-        <div className="col-12 col-md-12 col-lg-3 text-center pt-5">
-          <img src={profilePhoto} className="profile-photo"
-               alt="Profile Picture of Lin Li" width="200" height="200"/>
+    <div className="card col-12 p-4">
+      <div className="row">
+        <div className={"Project-Header col-12"}>
+          <h1>Movie Review Site</h1>
         </div>
-        <div className="col-12 col-md-12 col-lg-9 pt-5">
-          <h2>About Me</h2>
+      </div>
+      <div className="row">
+        <div className="project-image col-12">
+          {/*Link the project here.*/}
+          <a href={'https://boiling-beyond-54963.herokuapp.com/'}>
+            <img src={projectPhoto} className="profile-photo"
+                 alt="Project photo" width={"100%"} height={"100%"}
+            />
+          </a>
+        </div>
+        <div className="col-12">
           <div className="row">
-            <p className="col">
-              Looking to start my career in software development, My aim is to build professional experience as most of
-              my experience in development is from all my personal work. I recently worked hard to obtain a full-stack
-              developer certificate and would like to use the skills I obtained to work somewhere where I can grow my
-              professional experience in the field, and start my Career.
+            {/*The reason for the project goes here*/}
+            <p className="col-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>

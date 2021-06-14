@@ -10,6 +10,7 @@ import Portfolio from "./containers/Portfolio";
 import MovieReviewSite from "./components/ProjectInformation/MovieReviewSite";
 import SubscriptionTracker from "./components/ProjectInformation/SubscriptionTracker";
 import StockNewsApp from "./components/ProjectInformation/Stock-News-App";
+import WeatherDashboard from "./components/ProjectInformation/WeatherDashboard";
 function App() {
 
  const renderPage = () => {
@@ -20,7 +21,7 @@ function App() {
       <Route exact={true} path={"/MovieReviewSite"} component={MovieReviewSite} />
       <Route exact={true} path={'/SubscriptionTracker'} component={SubscriptionTracker}/>
       <Route exact={true} path={'/StockNewsApp'} component={StockNewsApp}/>
-
+      <Route exact={true} path={'/WeatherDashboard'} component={WeatherDashboard}/>
       <Redirect to="/HomePage"/>
       <Redirect exact from={"/"} to={'/Homepage'} />
     </Switch>

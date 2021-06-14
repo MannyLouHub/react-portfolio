@@ -40,13 +40,13 @@ function Projects(props) {
               </div>
               <div className={'row'}>
                 <Thumbnail
-                    href='https://mannylouhub.github.io/Weather-Dashboard/'
+                    href='/WeatherDashboard'
                     image={weatherDashboard}
                     title='Weather Dashboard'
                     desc={weatherDesc}
                 />
                 <Thumbnail
-                    href='https://boiling-beyond-54963.herokuapp.com/'
+                    href='/MovieReviewSite'
                     image={movieReviewSite}
                     title='Movie Review Site'
                     desc={movieDesc}

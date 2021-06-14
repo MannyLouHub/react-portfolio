@@ -20,8 +20,8 @@ const SubscriptionTracker = () => {
         </div>
         <div className="col-12">
           <div className="row">
-            <p className="col-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className={"col-12 project-description"}>
+              The subscription tracker is a web-based application that has user authentication and User Account creation. After users log in or create their account, they can use this webpage to search available subscription services provided by a back-end Database. Once the user              finds a subscription service that matches what they use or pays for monthly, they can add it to the "Your Subscription Service" Tab. Once the user has multiple items on that tab the site will calculate the monthly price of all their subscription services. Users can              also create custom subscription services that are not provided by our back-end Database. These custom services will also be calculated within the users' monthly price once added.
             </p>
           </div>
         </div>
