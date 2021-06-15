@@ -28,7 +28,7 @@ const MovieReviewSite = () => {
       <div className="row">
         <div className="project-image col-12">
           {/*Link the project here.*/}
-          <a >
+          <a>
             <img src={projectPhoto} className="profile-photo"
                  alt="Project photo" width={"100%"} height={"100%"}
             />
@@ -38,11 +38,10 @@ const MovieReviewSite = () => {
           <div className="row">
             {/*The reason for the project goes here*/}
             <div className="col-12 project-description mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              An app that makes it easier for users to find new movies and tv shows. This app will allow users to be
+              able to review, search, and save movies to their profile. The point of this app was to give a social
+              aspect to sharing movies and tv shows with others while finding new ones to enjoy. We tried to make a
+              blend of rotten tomatoes and Facebook.
             </div>
           </div>
         </div>
