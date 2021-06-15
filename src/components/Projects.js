@@ -8,7 +8,7 @@ import movieReviewSite from '../images/movie-review-site.jpg'
 import {Link} from "react-router-dom";
 import "./CSS/project.css"
 
-const stockDesc = 'This is my first team project, the purpose of this app was to allow users to have a place where they can save and track their favorite stocks. This app also uses and free open-source API\'s to get a stock price information, as well as related news base on the user-selected stock. All this information would be displayed on a dashboard and saved to local storage, meaning as long as the user does not clear their cookies and temp files they should be able to save their favorite stocks come back and view them again at any time.' ;
+const stockDesc = 'This is my first team project, the purpose of this app was to allow users to have a place where they can save and track their favorite stocks. This app also uses and free open-source API\'s to get a stock price information, as well as related news base on the user-selected stock. All this information would be displayed on a dashboard and saved to local storage, meaning as long as the user does not clear their cookies and temp files they should be able to save their favorite stocks come back and view them again at any time.';
 
 const subDesc = 'My favorite team project, Sub-track is a subscription tracking service. Users will be able to log into this webpage and create a custom tracking service of their current subscription services. This website also contains a huge list of popular subscription services as well as their current price, which allows users to add, remove, and modify the list to their personal preferences. ';
 

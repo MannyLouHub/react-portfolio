@@ -12,6 +12,18 @@ const StockNewsApp = () => {
           <h1>Stock-News-Application</h1>
         </div>
       </div>
+      <div className="row p-3">
+        <div className={"Button1 col-6"}>
+          <a href={'https://github.com/MannyLouHub/Stock-News-App'} className="btn btn-primary btn-block">
+            GitHub
+          </a>
+        </div>
+        <div className={"Button2 col-6"}>
+          <a href={'https://mannylouhub.github.io/Stock-News-App/'} className="btn btn-primary btn-block">
+            Site
+          </a>
+        </div>
+      </div>
       <div className="row">
         <div className="project-image col-12">
           <a href={'https://mannylouhub.github.io/Stock-News-App/'}>

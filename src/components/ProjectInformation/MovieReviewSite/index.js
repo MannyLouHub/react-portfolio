@@ -13,10 +13,22 @@ const MovieReviewSite = () => {
           <h1>Movie Review Site</h1>
         </div>
       </div>
+      <div className="row p-3">
+        <div className={"Button1 col-6"}>
+          <a href={'https://github.com/MannyLouHub/MovieReviewSite'} className="btn btn-primary btn-block">
+            GitHub
+          </a>
+        </div>
+        <div className={"Button2 col-6"}>
+          <a href={'https://boiling-beyond-54963.herokuapp.com/'} className="btn btn-primary btn-block">
+            Site
+          </a>
+        </div>
+      </div>
       <div className="row">
         <div className="project-image col-12">
           {/*Link the project here.*/}
-          <a href={'https://boiling-beyond-54963.herokuapp.com/'}>
+          <a >
             <img src={projectPhoto} className="profile-photo"
                  alt="Project photo" width={"100%"} height={"100%"}
             />

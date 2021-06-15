@@ -13,6 +13,18 @@ const WeatherDashboard = () => {
           <h1>Weather Dashboard</h1>
         </div>
       </div>
+      <div className="row p-3">
+        <div className={"Button1 col-6"}>
+          <a href={'https://github.com/MannyLouHub/Weather-Dashboard'} className="btn btn-primary btn-block">
+            GitHub
+          </a>
+        </div>
+        <div className={"Button2 col-6"}>
+          <a href={'https://mannylouhub.github.io/Weather-Dashboard/'} className="btn btn-primary btn-block">
+            Site
+          </a>
+        </div>
+      </div>
       <div className="row">
         <div className="project-image col-12">
           {/*Link the project here.*/}
@@ -26,11 +38,10 @@ const WeatherDashboard = () => {
           <div className="row">
             {/*The reason for the project goes here*/}
             <p className="col-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              This is one of the applications from my FullStack Developer Course. The purpose of this app was to get
+              myself familiar with pulling information from an API and showing it on a webpage. It's not a complicated
+              webpage, but it taught me how to download sublibraries and to use the local storage to temporarily store
+              information.
             </p>
           </div>
         </div>
