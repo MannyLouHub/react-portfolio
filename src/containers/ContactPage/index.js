@@ -1,7 +1,7 @@
 import React from "react";
-import linkedin from "../../images/LinkedIn.jpg"
+import linkedin from "../../images/Linkedin.jpg"
 import github from "../../images/github.png"
-import email from "../../images/mail.jpg"
+import email from "../../images/Contact.jpg"
 
 function ContactPage() {
   return (
