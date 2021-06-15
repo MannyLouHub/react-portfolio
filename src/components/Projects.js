@@ -6,6 +6,7 @@ import weatherDashboard from '../images/weather-dashboard.jpg'
 import dayPlanner from '../images/dayplanner.jpg'
 import movieReviewSite from '../images/movie-review-site.jpg'
 import {Link} from "react-router-dom";
+import "./CSS/project.css"
 
 const stockDesc = 'This is my first team project, the purpose of this app was to allow users to have a place where they can save and track their favorite stocks. This app also uses and free open-source API\'s to get a stock price information, as well as related news base on the user-selected stock. All this information would be displayed on a dashboard and saved to local storage, meaning as long as the user does not clear their cookies and temp files they should be able to save their favorite stocks come back and view them again at any time.' ;
 
@@ -21,7 +22,7 @@ function Projects(props) {
       <div className={'container p-5'}>
         <div className={'row'}>
           <div className={'col-12'}>
-            <h3 className={'project-title col-12'}> Projects</h3>
+            <div className={'projects col-12'}> Projects</div>
             <div>
               <div className={'row'}>
 

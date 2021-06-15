@@ -1,5 +1,8 @@
 import React from 'react';
 import projectPhoto from "../../../images/Weather_Dashboard.PNG"
+import "./style.css"
+
+
 //Name of Project here
 const WeatherDashboard = () => {
   return <div className="container p-5">
@@ -23,7 +26,11 @@ const WeatherDashboard = () => {
           <div className="row">
             {/*The reason for the project goes here*/}
             <p className="col-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
             </p>
           </div>
         </div>

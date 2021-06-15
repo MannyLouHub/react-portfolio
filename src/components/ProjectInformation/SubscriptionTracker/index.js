@@ -1,5 +1,6 @@
 import React from 'react';
 import projectPhoto from "../../../images/Subtract_Screenshot.PNG"
+import "./style.css"
 
 const SubscriptionTracker = () => {
   return <div className="container p-5">
@@ -20,9 +21,9 @@ const SubscriptionTracker = () => {
         </div>
         <div className="col-12">
           <div className="row">
-            <p className={"col-12 project-description"}>
+            <div className={"col-12 project-description mt-2"}>
               The subscription tracker is a web-based application that has user authentication and User Account creation. After users log in or create their account, they can use this webpage to search available subscription services provided by a back-end Database. Once the user              finds a subscription service that matches what they use or pays for monthly, they can add it to the "Your Subscription Service" Tab. Once the user has multiple items on that tab the site will calculate the monthly price of all their subscription services. Users can              also create custom subscription services that are not provided by our back-end Database. These custom services will also be calculated within the users' monthly price once added.
-            </p>
+            </div>
           </div>
         </div>
       </div>

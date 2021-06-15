@@ -1,5 +1,7 @@
 import React from 'react';
 import projectPhoto from "../../../images/Stock_Investigator.PNG"
+import "./style.css"
+
 
 const StockNewsApp = () => {
   return <div className="container p-5">
@@ -20,9 +22,13 @@ const StockNewsApp = () => {
         </div>
         <div className="col-12">
           <div className="row">
-            <p className="col-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div className="project-description mt-2">
+              This application was one of my very first. I combined my love of programming and my interest in the stock
+              market to try and design a helpful webpage. The sole purpose of this site is for users to search a stock
+              ticker and find relatable news based on the searched stock. We also allowed users to save their favorite
+              tickers for ease of access when leaving and coming back to the webpage. We grabbed all of the information
+              from APIs that allowed us to create a chart for the stock price and show news related to it.
+            </div>
           </div>
         </div>
       </div>
